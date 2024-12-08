@@ -1,10 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-export default function home() {
+const index = () => {
   return (
     <View>
-      <Text>home eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</Text>
+      <Text>Registration</Text>
     </View>
   );
-}
+};
+
+export default index;

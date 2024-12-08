@@ -21,6 +21,8 @@ export default function OnBoardingScreen() {
         activeDotStyle={styles.activeStyle}
         removeClippedSubviews={true}
         paginationStyle={styles.paginationStyle}
+        autoplay={true}
+        loop={true}
       >
         {slides.map((silde: any, index: number) => (
           <View style={[styles.slideContainer]} key={index}>
